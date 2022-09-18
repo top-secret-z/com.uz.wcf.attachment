@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.acp.box">
+		<item name="wcf.acp.box.boxController.com.uz.wcf.attachment.topMembers"><![CDATA[Mitglieder mit den meisten Dateianhängen]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.mod.attachment"><![CDATA[Dateianhänge]]></item>
+		<item name="wcf.acp.group.option.mod.attachment.canDeleteAttachments"><![CDATA[Kann Benutzer-Dateianhänge löschen]]></item>
+		<item name="wcf.acp.group.option.mod.attachment.canViewAttachments"><![CDATA[Kann Benutzer-Dateianhänge sehen]]></item>
+		<item name="wcf.acp.group.option.user.attachment.canViewAttachmentCount"><![CDATA[Kann Anzahl der Benutzer-Dateianhänge sehen]]></item>
+		<item name="wcf.acp.group.option.user.attachment.reportAttachmentUpload"><![CDATA[Hochladen von Dateianhängen melden]]></item>
+	</category>
+	
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.attachment.log"><![CDATA[Download-Protokoll]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_attachment_report"><![CDATA[Meldung von Dateianhängen]]></item>
+		<item name="wcf.acp.option.module_attachment_report.description"><![CDATA[Das Hochladen von Dateianhängen wird über das Moderationspanel gemeldet.]]></item>
+		<item name="wcf.acp.option.category.user.attachment"><![CDATA[Dateianhänge]]></item>
+		<item name="wcf.acp.option.category.user.attachment.display"><![CDATA[Anzeige]]></item>
+		<item name="wcf.acp.option.category.user.attachment.log"><![CDATA[Protokoll]]></item>
+		<item name="wcf.acp.option.attachment_display_box_entries"><![CDATA[Einträge in der Box]]></item>
+		<item name="wcf.acp.option.attachment_display_message_sidebar"><![CDATA[In Seitenleiste anzeigen]]></item>
+		<item name="wcf.acp.option.attachment_display_userInformation"><![CDATA[Bei Benutzerinformationen anzeigen]]></item>
+		<item name="wcf.acp.option.attachment_log_cleanup_days"><![CDATA[Aufräumen nach]]></item>
+		<item name="wcf.acp.option.attachment_log_cleanup_days.description"><![CDATA[Ältere Einträge werden automatisch gelöscht. 0 eingeben, um keine Einträge zu löschen.]]></item>
+		<item name="wcf.acp.option.attachment_log_images"><![CDATA[Bilder]]></item>
+		<item name="wcf.acp.option.attachment_log_images.description"><![CDATA[Den Download von Bildern (Dateityp image/xyz) protokollieren.]]></item>
+	</category>
+	
+	<category name="wcf.acp.rebuildData">
+		<item name="wcf.acp.rebuildData.com.uz.wcf.attachment"><![CDATA[Benutzer-Dateianhänge aktualisieren]]></item>
+		<item name="wcf.acp.rebuildData.com.uz.wcf.attachment.description"><![CDATA[Aktualisiert die Anzahl der Dateianhänge der Benutzer.]]></item>
+	</category>
+	
+	<category name="wcf.acp.stat">
+		<item name="wcf.acp.stat.com.uz.wcf.attachment"><![CDATA[Dateianhang-Downloads]]></item>
+	</category>
+	
+	<category name="wcf.acp.uzattachments">
+		<item name="wcf.acp.uzattachments.contact"><![CDATA[Kontakt]]></item>
+		<item name="wcf.acp.uzattachments.list"><![CDATA[Download-Protokoll]]></item>
+		<item name="wcf.acp.uzattachments.objectType"><![CDATA[Objekt]]></item>
+		<item name="wcf.acp.uzattachments.private"><![CDATA[privat]]></item>
+		<item name="wcf.acp.uzattachments.signature"><![CDATA[Signatur]]></item>
+		<item name="wcf.acp.uzattachments.time"><![CDATA[Zeit]]></item>
+		<item name="wcf.acp.uzattachments.unknown"><![CDATA[unbekannt]]></item>
+		<item name="wcf.acp.uzattachments.username"><![CDATA[Benutzer]]></item>
+	</category>
+	
+	<category name="wcf.user">
+		<item name="wcf.user.sortField.uzAttachments"><![CDATA[Dateianhänge]]></item>
+	</category>
+	
+	<category name="wcf.user.condition">
+		<item name="wcf.user.condition.uzAttachments"><![CDATA[Dateianhänge]]></item>
+	</category>
+	
+	<category name="wcf.user.menu">
+		<item name="wcf.user.menu.community.usersAttachments"><![CDATA[Dateianhänge]]></item>
+	</category>
+	
+	<category name="wcf.user.uzattachments">
+		<item name="wcf.user.uzattachments.attachments"><![CDATA[Dateianhänge]]></item>
+		<item name="wcf.user.uzattachments.bytes"><![CDATA[Größe]]></item>
+		<item name="wcf.user.uzattachments.count"><![CDATA[Anzahl]]></item>
+		<item name="wcf.user.uzattachments.downloads"><![CDATA[Downloads]]></item>
+		<item name="wcf.user.uzattachments.private"><![CDATA[Private Dateianhänge]]></item>
+		<item name="wcf.user.uzattachments.report"><![CDATA[Der Benutzer hat Dateianhänge hochgeladen.]]></item>
+		<item name="wcf.user.uzattachments.show"><![CDATA[Dateianhänge von {$user->username} anzeigen]]></item>
+		<item name="wcf.user.uzattachments.temporary"><![CDATA[Zugriff auf den Inhalt ist nicht möglich.]]></item>
+		<item name="wcf.user.uzattachments.top"><![CDATA[{#$user->uzAttachments} {if $user->uzAttachments == 1}Dateianhang{else}Dateianhänge{/if}]]></item>
+	</category>
+</language>

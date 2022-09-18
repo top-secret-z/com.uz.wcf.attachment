@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/option.xsd">
+	<import>
+		<categories>
+			<category name="user.attachment">
+				<parent>user</parent>
+			</category>
+			<category name="user.attachment.display">
+				<parent>user.attachment</parent>
+			</category>
+			<category name="user.attachment.log">
+				<parent>user.attachment</parent>
+			</category>
+		</categories>
+		
+		<options>
+			<!-- show in message sidebar -->
+			<option name="attachment_display_message_sidebar">
+				<categoryname>user.attachment.display</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+			<!-- show in members list -->
+			<option name="attachment_display_userInformation">
+				<categoryname>user.attachment.display</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+			<!-- box entries -->
+			<option name="attachment_display_box_entries">
+				<categoryname>user.attachment.display</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>5</defaultvalue>
+				<minvalue>1</minvalue>
+				<maxvalue>10</maxvalue>
+			</option>
+			
+			<!-- log -->
+			<option name="attachment_log_cleanup_days">
+				<categoryname>user.attachment.log</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<minvalue>0</minvalue>
+				<suffix>days</suffix>
+			</option>
+			<option name="attachment_log_images">
+				<categoryname>user.attachment.log</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+			<option name="module_attachment_report">
+				<categoryname>module.content</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>

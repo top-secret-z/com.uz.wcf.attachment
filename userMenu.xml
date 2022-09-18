@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/userMenu.xsd">
+	<import>
+		<usermenuitem name="wcf.user.menu.community.usersAttachments">
+			<controller><![CDATA[wcf\page\UsersAttachmentsPage]]></controller>
+			<parent>wcf.user.menu.community</parent>
+			<option>module_attachment</option>
+			<showorder>4</showorder>
+		</usermenuitem>
+	</import>
+</data>
