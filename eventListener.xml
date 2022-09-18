@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/eventListener.xsd">
-	<import>
-		<eventlistener name="attachmentAdminAttachment">
-			<eventclassname>wcf\data\attachment\AttachmentAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<environment>admin</environment>
-			<inherit>1</inherit>
-			<listenerclassname>wcf\system\event\listener\AttachmentListener</listenerclassname>
-		</eventlistener>
-		<eventlistener name="attachmentUserAttachment">
-			<eventclassname>wcf\data\attachment\AttachmentAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<environment>user</environment>
-			<inherit>1</inherit>
-			<listenerclassname>wcf\system\event\listener\AttachmentListener</listenerclassname>
-		</eventlistener>
-		
-		<eventlistener name="attachmentPageShow">
-			<eventclassname>wcf\page\AttachmentPage</eventclassname>
-			<eventname>show</eventname>
-			<environment>user</environment>
-			<inherit>1</inherit>
-			<listenerclassname>wcf\system\event\listener\AttachmentListener</listenerclassname>
-		</eventlistener>
-		
-		<eventlistener name="attachmentAdminCleanup">
-			<eventclassname>wcf\system\cronjob\AttachmentCleanUpCronjob</eventclassname>
-			<eventname>execute</eventname>
-			<listenerclassname>wcf\system\event\listener\AttachmentCleanUpListener</listenerclassname>
-			<environment>admin</environment>
-		</eventlistener>
-		<eventlistener name="attachmentUserCleanup">
-			<eventclassname>wcf\system\cronjob\AttachmentCleanUpCronjob</eventclassname>
-			<eventname>execute</eventname>
-			<listenerclassname>wcf\system\event\listener\AttachmentCleanUpListener</listenerclassname>
-			<environment>user</environment>
-		</eventlistener>
-		
-		<eventlistener name="attachmentStatisticsBox">
-			<eventclassname>wcf\system\box\StatisticsBoxController</eventclassname>
-			<eventname>beforeLoadContent</eventname>
-			<listenerclassname>wcf\system\event\listener\AttachmentStatisticsBoxControllerListener</listenerclassname>
-		</eventlistener>
-		
-		<eventlistener name="attachmentMembersListPage">
-			<eventclassname>wcf\page\MembersListPage</eventclassname>
-			<eventname>readParameters</eventname>
-			<environment>user</environment>
-			<inherit>1</inherit>
-			<listenerclassname>wcf\system\event\listener\AttachmentMembersListPageListener</listenerclassname>
-		</eventlistener>
-	</import>
+    <import>
+        <eventlistener name="attachmentAdminAttachment">
+            <eventclassname>wcf\data\attachment\AttachmentAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <environment>admin</environment>
+            <inherit>1</inherit>
+            <listenerclassname>wcf\system\event\listener\AttachmentListener</listenerclassname>
+        </eventlistener>
+        <eventlistener name="attachmentUserAttachment">
+            <eventclassname>wcf\data\attachment\AttachmentAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <environment>user</environment>
+            <inherit>1</inherit>
+            <listenerclassname>wcf\system\event\listener\AttachmentListener</listenerclassname>
+        </eventlistener>
+
+        <eventlistener name="attachmentPageShow">
+            <eventclassname>wcf\page\AttachmentPage</eventclassname>
+            <eventname>show</eventname>
+            <environment>user</environment>
+            <inherit>1</inherit>
+            <listenerclassname>wcf\system\event\listener\AttachmentListener</listenerclassname>
+        </eventlistener>
+
+        <eventlistener name="attachmentAdminCleanup">
+            <eventclassname>wcf\system\cronjob\AttachmentCleanUpCronjob</eventclassname>
+            <eventname>execute</eventname>
+            <listenerclassname>wcf\system\event\listener\AttachmentCleanUpListener</listenerclassname>
+            <environment>admin</environment>
+        </eventlistener>
+        <eventlistener name="attachmentUserCleanup">
+            <eventclassname>wcf\system\cronjob\AttachmentCleanUpCronjob</eventclassname>
+            <eventname>execute</eventname>
+            <listenerclassname>wcf\system\event\listener\AttachmentCleanUpListener</listenerclassname>
+            <environment>user</environment>
+        </eventlistener>
+
+        <eventlistener name="attachmentStatisticsBox">
+            <eventclassname>wcf\system\box\StatisticsBoxController</eventclassname>
+            <eventname>beforeLoadContent</eventname>
+            <listenerclassname>wcf\system\event\listener\AttachmentStatisticsBoxControllerListener</listenerclassname>
+        </eventlistener>
+
+        <eventlistener name="attachmentMembersListPage">
+            <eventclassname>wcf\page\MembersListPage</eventclassname>
+            <eventname>readParameters</eventname>
+            <environment>user</environment>
+            <inherit>1</inherit>
+            <listenerclassname>wcf\system\event\listener\AttachmentMembersListPageListener</listenerclassname>
+        </eventlistener>
+    </import>
 </data>

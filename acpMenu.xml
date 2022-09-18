@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/acpMenu.xsd">
-	<import>
-		<!-- attachment -->
-		<acpmenuitem name="wcf.acp.menu.link.attachment.log">
-			<controller>wcf\acp\page\AttachmentLogListPage</controller>
-			<parent>wcf.acp.menu.link.attachment</parent>
-			<permissions>admin.attachment.canManageAttachment</permissions>
-		</acpmenuitem>
-	</import>
+    <import>
+        <!-- attachment -->
+        <acpmenuitem name="wcf.acp.menu.link.attachment.log">
+            <controller>wcf\acp\page\AttachmentLogListPage</controller>
+            <parent>wcf.acp.menu.link.attachment</parent>
+            <permissions>admin.attachment.canManageAttachment</permissions>
+        </acpmenuitem>
+    </import>
 </data>

@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/page.xsd">
-	<import>
-		<page identifier="com.uz.wcf.attachment.users">
-			<pageType>system</pageType>
-			<controller>wcf\page\UsersAttachmentsPage</controller>
-			<name language="de">Meine Dateianhänge</name>
-			<name language="en">My Attachments</name>
-			<hasFixedParent>1</hasFixedParent>
-			<parent>com.woltlab.wcf.AccountManagement</parent>
-			<permissions>user.attachment.canViewAttachmentCount</permissions>
-			<options>module_attachment</options>
-			
-			<content language="en">
-				<title>My Attachments</title>
-			</content>
-			<content language="de">
-				<title>Meine Dateianhänge</title>
-			</content>
-		</page>
-		
-		<page identifier="com.uz.wcf.attachment.user">
-			<pageType>system</pageType>
-			<controller>wcf\page\UserAttachmentListPage</controller>
-			<name language="de">Dateianhänge</name>
-			<name language="en">Attachments</name>
-			<permissions>mod.attachment.canViewAttachments</permissions>
-			<options>module_attachment</options>
-			
-			<content language="en">
-				<title>Attachments</title>
-			</content>
-			<content language="de">
-				<title>Dateianhänge</title>
-			</content>
-		</page>
-	</import>
+    <import>
+        <page identifier="com.uz.wcf.attachment.users">
+            <pageType>system</pageType>
+            <controller>wcf\page\UsersAttachmentsPage</controller>
+            <name language="de">Meine Dateianhänge</name>
+            <name language="en">My Attachments</name>
+            <hasFixedParent>1</hasFixedParent>
+            <parent>com.woltlab.wcf.AccountManagement</parent>
+            <permissions>user.attachment.canViewAttachmentCount</permissions>
+            <options>module_attachment</options>
+
+            <content language="en">
+                <title>My Attachments</title>
+            </content>
+            <content language="de">
+                <title>Meine Dateianhänge</title>
+            </content>
+        </page>
+
+        <page identifier="com.uz.wcf.attachment.user">
+            <pageType>system</pageType>
+            <controller>wcf\page\UserAttachmentListPage</controller>
+            <name language="de">Dateianhänge</name>
+            <name language="en">Attachments</name>
+            <permissions>mod.attachment.canViewAttachments</permissions>
+            <options>module_attachment</options>
+
+            <content language="en">
+                <title>Attachments</title>
+            </content>
+            <content language="de">
+                <title>Dateianhänge</title>
+            </content>
+        </page>
+    </import>
 </data>
