@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/box.xsd">
-	<import>
-		<box identifier="com.uz.wcf.attachment.topMembers">
-			<name language="de">Mitglieder mit den meisten Dateianhängen</name>
-			<name language="en">Members with the most attachments</name>
-			<boxType>system</boxType>
-			<objectType>com.uz.wcf.attachment.topMembers</objectType>
-			<position>sidebarRight</position>
-			<showHeader>1</showHeader>
-			<visibleEverywhere>0</visibleEverywhere>
-			<sortField>uzAttachments</sortField>
-			<sortOrder>DESC</sortOrder>
-			
-			<content language="de">
-				<title>Mitglieder mit den meisten Dateianhängen</title>
-			</content>
-			<content language="en">
-				<title>Members with the most attachments</title>
-			</content>
-		</box>
-	</import>
+    <import>
+        <box identifier="com.uz.wcf.attachment.topMembers">
+            <name language="de">Mitglieder mit den meisten Dateianhängen</name>
+            <name language="en">Members with the most attachments</name>
+            <boxType>system</boxType>
+            <objectType>com.uz.wcf.attachment.topMembers</objectType>
+            <position>sidebarRight</position>
+            <showHeader>1</showHeader>
+            <visibleEverywhere>0</visibleEverywhere>
+            <sortField>uzAttachments</sortField>
+            <sortOrder>DESC</sortOrder>
+
+            <content language="de">
+                <title>Mitglieder mit den meisten Dateianhängen</title>
+            </content>
+            <content language="en">
+                <title>Members with the most attachments</title>
+            </content>
+        </box>
+    </import>
 </data>
